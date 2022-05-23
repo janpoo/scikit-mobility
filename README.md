@@ -585,8 +585,10 @@ Plot the real flows and the synthetic flows:
 
 ![Gravity model: real flows vs synthetic flows](examples/real_flows_vs_synth_flows.png)
 
-#### Radiation model
-The Radiation model is parameter-free and has only one method: `generate`. Given a spatial tessellation, the synthetic flows can be generated using the `Radiation` class as follows:
+#### Radiation model（辐射模型）
+The Radiation model is parameter-free and has only one method: `generate`. Given a spatial tessellation（空间镶嵌：多维空间填充）, the synthetic flows can be generated using the `Radiation` class as follows:
+
+辐射模型( radiation model) 是2012 年美国学者Simini借鉴固体物理学中物质运动的发散和吸收过程提出的，弥补了重力模型应用于人口流动强度模拟存在的多项不足，并利用人口流、物流、信息流等进行了实例验证。与重力模型相比，辐射模型与实测数据的拟合程度较高，能够更趋近现实地模拟两地之间的流动强度。辐射模型将人口流动看做一个受联合概率支配的随机过程，取决于出发地、目的地和影响范围的人口分布。
 
 ```python
 >>> from skmob.models import Radiation
