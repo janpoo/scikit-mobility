@@ -13,19 +13,19 @@
 - on [Jovian](https://jovian.ai/jonpappalord/collections/scikit-mobility-tutorial)
 
 
-`scikit-mobility` is a library for human mobility analysis in Python. The library allows to: 
+`scikit-mobility` is a library for human mobility analysis【轨迹分析】 in Python. The library allows to: 
 
-- represent trajectories and mobility flows with proper data structures, `TrajDataFrame` and `FlowDataFrame`. 
+- represent trajectories and mobility flows(人员流动） with proper data structures, `TrajDataFrame` and `FlowDataFrame`. 
 
-- manage and manipulate mobility data of various formats (call detail records, GPS data, data from social media, survey data, etc.);
+- manage and manipulate mobility data of various formats (call detail records【通话记录】, GPS data, data from social media, survey data, etc.);
 
-- extract mobility metrics and patterns from data, both at individual and collective level (e.g., length of displacements, characteristic distance, origin-destination matrix, etc.)
+- extract mobility metrics and patterns from data, both at individual（个体） and collective（群体） level (e.g., length of displacements, characteristic distance, origin-destination matrix（OD矩阵）, etc.)
 
-- generate synthetic individual trajectories using standard mathematical models (random walk models, exploration and preferential return model, etc.)
+- generate individual trajectories using standard mathematical models (random walk models, exploration and preferential return model, etc.)
 
-- generate synthetic mobility flows using standard migration models (gravity model, radiation model, etc.)
+- generate synthetic mobility flows using standard migration models【人员流动模型】 (gravity model【重力模型】, radiation model【辐射模型】, etc.)
 
-- assess the privacy risk associated with a mobility data set
+- assess the privacy risk（评估隐私风险） associated with a mobility data set
 
 ## Table of contents
 1. [Documentation](#documentation)
